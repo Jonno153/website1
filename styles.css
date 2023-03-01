@@ -1,0 +1,96 @@
+body{
+  background-image:url(./images/cartoon_cupcakes.png);
+
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+.menu-container {
+  color: #040a0b;
+  background-color: #eba8e0;  /* Blue */
+  padding: 22px ;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:100;
+  font-style: italic;
+  
+}
+.menu {
+  width: 900px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.about{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.contact{
+  margin-left: 20px;
+}
+
+.offers{
+  margin-left: auto;
+}
+
+.header-container {
+  /*background-color: #eba8e0;*/
+  color: #5995DA;
+  display: flex;
+  justify-content:center;
+  margin: 5px;
+}
+
+.photo-grid-container{
+  display: flex;
+  justify-content: center;
+  border: 1px solid ; /* for debugging*/
+  margin: 2px;
+  padding: 2px;
+  
+}
+
+.photo-grid{
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+
+}
+
+.photo-grid-item{
+  border: 1px solid #fff;
+  width: 300px;
+  height:  300px;
+  border: 1px solid ; /* for debugging*/
+  margin: 2px;
+  border-radius: 25px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-item {
+  border: 1px solid #fff;
+  background-color: #e0c6f3;
+  height: 100px;
+  flex: 2;
+}
+
+.footer-two{
+  background-color: #c7dff0;
+  flex: initial;
+  width: 300px;
+}
